@@ -1,14 +1,14 @@
 [
   {
-    "type": "Overnight",
+    "type": "Cudex 10",
     "price": 25.99
   },
   {
-    "type": "2-Day",
-    "price": 9.99
+    "type": "Cudex 12",
+    "price": 20.99
   },
   {
-    "type": "Postal",
-    "price": 2.99
+    "type": "PACú",
+    "price": 15.99
   }
 ]
