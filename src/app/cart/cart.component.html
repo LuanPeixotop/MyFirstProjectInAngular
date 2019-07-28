@@ -8,3 +8,19 @@
     <span>{{ item.name }}</span>
     <span>{{ item.price | currency}}</span>
 </div>
+
+<div class="form" *ngIf="items?.length">
+    <form ngNativeValidate [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name" formControlName="name" required minlength="2">
+        </div>
+
+        <div>
+            <label for="address">Endereço</label>
+            <input type="text" id="address" formControlName="address" required minlength="4">
+        </div>
+
+        <button class="button" type="submit">Comprar</button>
+    </form>
+</div>
