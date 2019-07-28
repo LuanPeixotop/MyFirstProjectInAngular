@@ -1,18 +1,18 @@
 export const products = [
   {
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
-  },
-  {
-    name: 'Phone Mini',
+    name: 'Xiaomi que bota apple pra mamar',
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: 'Celular mó bom e barato'
   },
   {
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    name: 'Caramuru (Galo de briga)',
+    price: 999,
+    description: 'Galo encapetado'
+  },
+  {
+    name: 'Travecão',
+    price: 10,
+    description: '10 conto a hora'
   }
 ];
 
